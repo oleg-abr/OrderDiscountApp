@@ -41,6 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.cs" />
+    <Compile Include="Decorator.cs" />
+    <Compile Include="DiscountAll.cs" />
+    <Compile Include="DiscountOne.cs" />
+    <Compile Include="DiscountNone.cs" />
+    <Compile Include="DiscountTwo.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="IDiscount.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductFactory.cs" />
+    <Compile Include="ProductB.cs" />
+    <Compile Include="ProductC.cs" />
+    <Compile Include="ProductA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
